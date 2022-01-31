@@ -11,8 +11,24 @@
 </head>
 
 <body>
-    <div class="btn">Reset 🎨</div>
-    <div class="grid-container">
+    <div class="container">
+        <div class="control-container">
+            <h4>Etch A Sketch</h4>
+            <div class="btn">Erase 🪄</div>
+            <div class="btn-2">Rainbow Color 🌈</div>
+            <div class="btn-3">
+                <p>Select Color 👉&nbsp;</p><input type="color" id="color" name="color" value="#ff0000">
+            </div>
+            <div class="input">
+                <p>Brush Size 🖌</p>
+                <input type="range" id='size-selector' min='10' max='100' value="50" step='10'>
+            </div>
+        </div>
+        <div class="grid-container"></div>
+    </div>
+    <div class="built-by">
+        <p class='footer'>Made with ❤️ and ☕️ By Pcoch <a href="https://github.com/pcoch/ETCH-A-SKETCH"><img
+                    class='github' src="/assets/25231.png" alt="github"></p></a>
     </div>
 </body>
 
