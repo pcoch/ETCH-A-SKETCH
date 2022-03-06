@@ -12,3 +12,6 @@ The next challenge was allowing the user to choose RBG, or color selector instea
 Would not be complete without gradient background.
 
 Any feedback on the code is always welcome :)
+
+**Completed**
+https://gracious-morse-014e40.netlify.app
